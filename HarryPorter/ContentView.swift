@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  HarryPorter
 //
-//  Created by Sagar Maurya on 23/01/25.
+//  Created by Spriyha Maurya on 23/01/25.
 //
 
 import SwiftUI
