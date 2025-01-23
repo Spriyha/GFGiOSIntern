@@ -11,6 +11,12 @@
 		B161099A2D4296A700FE7429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16109992D4296A700FE7429 /* ContentView.swift */; };
 		B161099C2D4296A800FE7429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B161099B2D4296A800FE7429 /* Assets.xcassets */; };
 		B161099F2D4296A800FE7429 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B161099E2D4296A800FE7429 /* Preview Assets.xcassets */; };
+		B16109A62D42972600FE7429 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16109A52D42972600FE7429 /* Model.swift */; };
+		B16109A82D42974800FE7429 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16109A72D42974800FE7429 /* ApiServices.swift */; };
+		B16109AA2D42988A00FE7429 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16109A92D42988A00FE7429 /* ViewModel.swift */; };
+		B16109AC2D4298C500FE7429 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16109AB2D4298C500FE7429 /* HomeView.swift */; };
+		B16109AE2D4298E500FE7429 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16109AD2D4298E500FE7429 /* CharactersListView.swift */; };
+		B16109B02D42990400FE7429 /*  CharacterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16109AF2D42990400FE7429 /*  CharacterRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		B16109992D4296A700FE7429 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B161099B2D4296A800FE7429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B161099E2D4296A800FE7429 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B16109A52D42972600FE7429 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B16109A72D42974800FE7429 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		B16109A92D42988A00FE7429 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B16109AB2D4298C500FE7429 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B16109AD2D4298E500FE7429 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
+		B16109AF2D42990400FE7429 /*  CharacterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CharacterRowView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				B16109972D4296A700FE7429 /* HarryPorterApp.swift */,
 				B16109992D4296A700FE7429 /* ContentView.swift */,
+				B16109A52D42972600FE7429 /* Model.swift */,
+				B16109A92D42988A00FE7429 /* ViewModel.swift */,
+				B16109AB2D4298C500FE7429 /* HomeView.swift */,
+				B16109AD2D4298E500FE7429 /* CharactersListView.swift */,
+				B16109AF2D42990400FE7429 /*  CharacterRowView.swift */,
+				B16109A72D42974800FE7429 /* ApiServices.swift */,
 				B161099B2D4296A800FE7429 /* Assets.xcassets */,
 				B161099D2D4296A800FE7429 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16109AA2D42988A00FE7429 /* ViewModel.swift in Sources */,
+				B16109A62D42972600FE7429 /* Model.swift in Sources */,
+				B16109B02D42990400FE7429 /*  CharacterRowView.swift in Sources */,
 				B161099A2D4296A700FE7429 /* ContentView.swift in Sources */,
+				B16109AC2D4298C500FE7429 /* HomeView.swift in Sources */,
+				B16109AE2D4298E500FE7429 /* CharactersListView.swift in Sources */,
+				B16109A82D42974800FE7429 /* ApiServices.swift in Sources */,
 				B16109982D4296A700FE7429 /* HarryPorterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
